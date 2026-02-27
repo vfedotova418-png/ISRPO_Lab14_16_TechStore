@@ -49,6 +49,7 @@ body {
     padding: 10px 20px;
     display: inline-block;
     border-radius: 4px;
+    font-family: Comic Sans MS, cursive, sans-serif;
 }
 
 .link-active {
@@ -58,6 +59,7 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
+    font-family: Comic Sans MS, cursive, sans-serif;
 }
 
 .non-active-navigation:hover .non-active {
@@ -77,11 +79,14 @@ button:hover {
 .hero-section {
     background: linear-gradient(to right, #3e92ff, #96ecff);
     color: white;
-    font-size: 24px;
-    padding: 20px;
     min-height: 400px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+    text-align: center;
 }
 
 .view-catalog {
@@ -91,4 +96,15 @@ button:hover {
     background-color: #065fd4;
     padding: 10px 20px;
     gap: 20px;
+    font-size: 24px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+.view-catalog:hover {
+    background-color: #004caf;
+    cursor: pointer;
+}
+
+.hero-section p, button {
+    gap: 100px;
 }
