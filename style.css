@@ -95,6 +95,7 @@ button:hover {
     color: white;
     background-color: #065fd4;
     padding: 10px 20px;
+    margin-top: 12px;
     gap: 20px;
     font-size: 24px;
     font-family: Comic Sans MS, cursive, sans-serif;
@@ -105,6 +106,108 @@ button:hover {
     cursor: pointer;
 }
 
-.hero-section p, button {
-    gap: 100px;
+/* Cards section */
+
+.main {
+    background-color: #f1f1f1;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+.cards-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.cards-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.card {
+    padding: 20px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-image {
+    background: linear-gradient(to right, #5f92ff, #6415d1);
+    padding: 40px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 64px;
+}
+
+.bg-image {
+    background: linear-gradient(to right, #5f92ff, #6415d1);
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item-description,
+.review-count,
+.old-price {
+    font-size: 15px;
+    color: #8c8c8c;
+}
+
+.stars {
+    font-size: 15px;
+    color: yellow;
+}
+
+.btn-buy {
+    background-color: #20baa6;
+    color: white;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.view-all {
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 20px;
+    background: transparent;
+    border-color: #00b3ff;
+    border-width: 4px;
+    color: #00b3ff;
+    font-weight: bold;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+.view-all:hover {
+    cursor: pointer;
+    background-color: white;
 }
