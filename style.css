@@ -27,6 +27,7 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+    cursor: pointer;
 }
 
 .navmenu-center nav {
@@ -143,19 +144,47 @@ button:hover {
     flex-direction: column;
 }
 
+.badge-red {
+    position: absolute;
+    font-size: 12px;
+    padding: 10px 14px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.badge-teal {
+    position: absolute;
+    font-size: 12px;
+    padding: 10px 14px;
+    margin: 5px;
+    background-color: #2fe9d4;
+    color: white;
+    border-radius: 10px;
+}
+
 .item-image {
     background: linear-gradient(to right, #5f92ff, #6415d1);
     padding: 40px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    font-size: 64px;
+    font-size: 75px;
 }
 
-.bg-image {
+.bg-image1 {
     background: linear-gradient(to right, #5f92ff, #6415d1);
+}
+
+.bg-image2 {
+    background: linear-gradient(to right, #ff7fc3, #ff1371);
+}
+
+.bg-image3 {
+    background-color:#a6daff;
 }
 
 .item-info {
@@ -165,7 +194,7 @@ button:hover {
     flex-direction: column;
     padding: 20px;
     background-color: white;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 10px 10px;
 }
 
 .price {
@@ -195,6 +224,11 @@ button:hover {
     padding: 10px;
 }
 
+.btn-buy:hover {
+    cursor: pointer;
+    background-color: #139d8b;
+}
+
 .view-all {
     border-radius: 6px;
     font-size: 20px;
@@ -210,4 +244,50 @@ button:hover {
 .view-all:hover {
     cursor: pointer;
     background-color: white;
+}
+
+/* Our pros */
+.about-us {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.about-us h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.pros {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.our-pros {
+    padding: 30px;
+    font-size: 23px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.emoji-symbol {
+    font-size: 64px;
+}
+
+.pros-description {
+    font-size: 15px;
+    color: #8c8c8c;
 }

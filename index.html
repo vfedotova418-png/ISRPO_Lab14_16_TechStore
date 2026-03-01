@@ -34,9 +34,9 @@
     <div class="hero-section">
         <h1>Добро пожаловать в TechStore!</h1>
         <p>Лучшая электроника по доступным ценам</p>
-        <button class="view-catalog">Посмотреть каталог
-            <a href="catalog.html"></a>
-        </button>
+        <a href="catalog.html">
+            <button class="view-catalog">Посмотреть каталог</button>
+        </a>
     </div>
 
     <div class="main">
@@ -45,8 +45,11 @@
             <div class="cards">
                 <!-- Товар 1 -->
                 <article class="card">
+                    <span class="badge-red">-20%</span>
                     <div class="item-image">
-                        <div class="bg-image">🎧</div>
+                        
+                        <div class="bg-image1">🎧</div>
+                        
                     </div>
                     <div class="item-info">
                         <h3 class="item-title">Наушники Sony WH-1000XM5</h3>
@@ -61,8 +64,9 @@
                 </article>
                 <!-- Товар 2 -->
                 <article class="card">
+                    <span class="badge-teal">НОВИНКА</span>
                     <div class="item-image">
-                        <div class="bg-image">📱</div>
+                        <div class="bg-image2">📱</div>
                     </div>
                     <div class="item-info">
                         <h3 class="item-title">iPhone 17 Pro Max 512GB</h3>
@@ -78,7 +82,7 @@
                 <!-- Товар 3 -->
                 <article class="card">
                     <div class="item-image">
-                        <div class="bg-image">💻</div>
+                        <div class="bg-image3">💻</div>
                     </div>
                     <div class="item-info">
                         <h3 class="item-title">MacBook Pro 14" MS Pro</h3>
@@ -92,9 +96,39 @@
                     </div>
                 </article>
             </div>
-            <button class="view-all">Смотреть все товары
-                <a href="catalog.html"></a>
-            </button>
+            <a href="catalog.html">
+                <button class="view-all">Смотреть все товары</button>
+            </a>
+        </div>
+
+        <div class="about-us">
+            <h2>Наши преимущества</h2>
+            <div class="pros">
+                <!-- Преимущество 1 -->
+                <article class="our-pros">
+                    <h3 class="emoji-symbol">🚚</h3>
+                    <h4 class="pros-title">Бесплатная доставка</h4>
+                    <p class="pros-description">Доставка по всей России при заказе от 3000₽</p>
+                </article>
+                <!-- Преимущество 2 -->
+                <article class="our-pros">
+                    <h3 class="emoji-symbol">💳</h3>
+                    <h4 class="pros-title">Безопасная оплата</h4>
+                    <p class="pros-description">Все платежи защищены современными протоколами</p>
+                </article>
+                <!-- Преимущество 3 -->
+                <article class="our-pros">
+                    <h3 class="emoji-symbol">🎁</h3>
+                    <h4 class="pros-title">Гарантия качества</h4>
+                    <p class="pros-description">Официальная гарантия на все товары от производителей</p>
+                </article>
+                <!-- Преимущество 4 -->
+                <article class="our-pros">
+                    <h3 class="emoji-symbol">📞</h3>
+                    <h4 class="pros-title">Поддержка 24/7</h4>
+                    <p class="pros-description">Наши специалисты всегда готовы помочь</p>
+                </article>
+            </div>
         </div>
     </div>
 </body>
