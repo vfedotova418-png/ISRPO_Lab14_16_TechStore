@@ -274,6 +274,7 @@ button:hover {
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 40px;
+    background-color: #f1f1f1;
 }
 
 .our-pros {
@@ -288,6 +289,7 @@ button:hover {
     background-color: white;
     border-radius: 10px;
     gap: 15px;
+    box-shadow: 0 5px 10px rgba(6, 6, 6, 0.225);
 }
 
 .emoji-symbol {
@@ -360,6 +362,7 @@ button:hover {
 
 .footer hr {
     margin-top: 30px;
+    color: #494949;
 }
 
 /* Catalog cards */
@@ -400,4 +403,133 @@ button:hover {
 .buy-btn:hover {
     cursor: pointer;
     background-color: #0600af;
+}
+
+/* About us */
+.full-about {
+    background-color: white;
+}
+
+.about-title {
+    padding: 40px 30px 40px;
+}
+
+.our-history {
+    background-color: #f1f1f1;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.our-history h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.info-cards  {
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(6, 6, 6, 0.225);
+    padding: 10px;
+    width: 300px;
+}
+
+.info-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.numbers {
+    color: #1d5fed;
+}
+
+.our-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    gap: 30px;
+}
+
+.team-h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.team-member {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.member-img {
+    font-size: 100px;
+}
+
+.member-name {
+    font-size: 30px;
+}
+
+.job-title {
+    font-size: 20px;
+    color: #150cff;
+}
+
+.member-desc {
+    font-size: 16px;
+}
+
+.why-us {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    background-color: #f1f1f1;
+}
+
+.our-pro {
+    padding: 30px;
+    font-size: 23px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    gap: 15px;
+    box-shadow: 0 5px 10px rgba(6, 6, 6, 0.225);
+}
+
+.pros-h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    padding: 40px;
+}
+
+.top-page-hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
 }
