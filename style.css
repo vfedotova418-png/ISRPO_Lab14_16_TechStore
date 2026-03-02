@@ -128,8 +128,8 @@ button:hover {
 }
 
 .cards {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
@@ -137,7 +137,7 @@ button:hover {
 }
 
 .card {
-    padding: 20px;
+    padding: 5px;
     width: 300px;
     position: relative;
     display: flex;
@@ -165,6 +165,7 @@ button:hover {
 }
 
 .item-image {
+    box-shadow: 0 5px 10px rgba(6, 6, 6, 0.225);
     background: linear-gradient(to right, #5f92ff, #6415d1);
     padding: 40px;
     border-radius: 10px 10px 0 0;
@@ -188,6 +189,7 @@ button:hover {
 }
 
 .item-info {
+    box-shadow: 0 5px 10px rgba(6, 6, 6, 0.225);
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -195,6 +197,11 @@ button:hover {
     padding: 20px;
     background-color: white;
     border-radius: 0 0 10px 10px;
+    flex: 1;
+}
+
+.item-title {
+    font-size: 21px;
 }
 
 .price {
@@ -353,4 +360,44 @@ button:hover {
 
 .footer hr {
     margin-top: 30px;
+}
+
+/* Catalog cards */
+.bg-image4 {
+    background: linear-gradient(to right, #27ff88, #13ffe3);
+}
+
+.bg-image5 {
+    background: linear-gradient(to right, #ff7c7c, #ffd561);
+}
+
+.bg-image6 {
+    background: linear-gradient(to bottom, #2033b1, #6ffdff);
+}
+
+.bg-image7 {
+    background: linear-gradient(to left, #ffc9e6, #a5e0ff);
+}
+
+.bg-image8 {
+    background: linear-gradient(to right, #ff7f7f, #ffaa80);
+}
+
+.bg-image9 {
+    background-color:#ffd8be;
+}
+
+.buy-btn {
+    background-color: #354ff7;
+    color: white;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.buy-btn:hover {
+    cursor: pointer;
+    background-color: #0600af;
 }
