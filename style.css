@@ -533,3 +533,194 @@ button:hover {
     height: 1px;
     background-color: #ccc;
 }
+
+
+/* ======== Адаптивность ========= */
+/* Tablets: 768px - 1199px */
+@media (max-width: 1199px) {
+    body {
+        font-size: 20px;
+    }
+    
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .our-team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-sections {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .footer-section {
+        flex: 1 1 200px;
+    }
+}
+
+/* Tablets (vertical orientation): 576px - 767px */
+@media (max-width: 767px) {
+    .header {
+        height: auto;
+        padding: 10px 16px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .navmenu-center nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .hero-section {
+        min-height: 300px;
+    }
+    
+    .hero-section h1 {
+        font-size: 28px;
+    }
+    
+    .our-team {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .info-cards {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .footer {
+        padding: 30px;
+    }
+}
+
+/* Mobile devices: up to 575px */
+@media (max-width: 575px) {
+    body {
+        font-size: 18px;
+    }
+    
+    .header {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .header-right {
+        justify-content: center;
+    }
+    
+    .navmenu-center nav {
+        justify-content: center;
+    }
+    
+    .non-active, 
+    .link-active {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+    
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .item-image {
+        font-size: 60px;
+        padding: 30px;
+    }
+    
+    .hero-section {
+        min-height: 250px;
+        padding: 15px;
+    }
+    
+    .hero-section h1 {
+        font-size: 24px;
+    }
+    
+    .hero-section p {
+        font-size: 16px;
+    }
+    
+    .view-catalog {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+    
+    .cards-section h2,
+    .about-us h2 {
+        font-size: 24px;
+    }
+    
+    .pros {
+        gap: 15px;
+    }
+    
+    .our-pros {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .footer-sections {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-section {
+        width: 100%;
+    }
+    
+    .footerbar {
+        flex-wrap: wrap;
+    }
+    
+    .about-title {
+        padding: 20px 15px;
+        font-size: 24px;
+    }
+    
+    .our-history {
+        padding: 20px;
+    }
+    
+    .info-card {
+        width: 100%;
+    }
+    
+    .team-member {
+        padding: 15px;
+    }
+    
+    .member-img {
+        font-size: 70px;
+    }
+    
+    .member-name {
+        font-size: 24px;
+    }
+    
+    .job-title {
+        font-size: 18px;
+    }
+}
